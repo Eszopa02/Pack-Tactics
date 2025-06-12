@@ -16,6 +16,7 @@ MonoBehaviour:
     keys:
     - 9fc0d4010bbf28b4594072e72b8655ab
     - 9be4567e3520ede4d816ea81791f8d0d
+    - 6e79bf1a289694242850a7990de8d1b7
     values:
     - goDatas_byGlobalId:
         keys:
@@ -34,6 +35,7 @@ MonoBehaviour:
         keys:
         - globalObjectIdString: GlobalObjectId_V1-2-9be4567e3520ede4d816ea81791f8d0d-289131562-0
         - globalObjectIdString: GlobalObjectId_V1-2-9be4567e3520ede4d816ea81791f8d0d-1593974187-0
+        - globalObjectIdString: GlobalObjectId_V1-2-9be4567e3520ede4d816ea81791f8d0d-1114020807-0
         values:
         - colorIndex: 0
           iconNameOrGuid: Camera Icon
@@ -41,6 +43,18 @@ MonoBehaviour:
           isColorRecursive: 0
         - colorIndex: 0
           iconNameOrGuid: Light Icon
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 0
+          iconNameOrGuid: Folder Icon
+          isIconRecursive: 0
+          isColorRecursive: 0
+    - goDatas_byGlobalId:
+        keys:
+        - globalObjectIdString: GlobalObjectId_V1-2-6e79bf1a289694242850a7990de8d1b7-1971836387-0
+        values:
+        - colorIndex: 0
+          iconNameOrGuid: AudioSource Icon
           isIconRecursive: 0
           isColorRecursive: 0
   bookmarks: []
