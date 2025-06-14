@@ -613,7 +613,9 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 
+        value: 'SetActive(Trust Score);
+
+'
         type: 0
         typeString: CustomFieldType_Text
       - title: Response Menu Sequence
@@ -681,6 +683,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
       conversationID: 1
       isRoot: 0
       isGroup: 0
@@ -696,8 +702,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 4.6697235
-        y: 404.58948
+        x: 69.80735
+        y: 398.16748
         width: 160
         height: 30
     - id: 10
