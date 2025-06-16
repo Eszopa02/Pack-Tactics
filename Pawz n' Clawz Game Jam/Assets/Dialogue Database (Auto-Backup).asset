@@ -121,29 +121,15 @@ MonoBehaviour:
   - id: 3
     fields:
     - title: Name
-      value: 
+      value: TrustScore
       type: 0
       typeString: 
     - title: Initial Value
-      value: false
-      type: 2
-      typeString: CustomFieldType_Boolean
+      value: 0
+      type: 1
+      typeString: CustomFieldType_Number
     - title: Description
-      value: 
-      type: 0
-      typeString: 
-  - id: 4
-    fields:
-    - title: Name
-      value: 
-      type: 0
-      typeString: 
-    - title: Initial Value
-      value: false
-      type: 2
-      typeString: CustomFieldType_Boolean
-    - title: Description
-      value: 
+      value: Trust increases or decreases based on choice
       type: 0
       typeString: 
   conversations:
@@ -446,7 +432,9 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 
+        value: 'SetActive(Positive);
+
+'
         type: 0
         typeString: CustomFieldType_Text
       conversationID: 1
@@ -466,14 +454,17 @@ MonoBehaviour:
       conditionsString: 
       userScript: 'Variable["AtWork"] = false;
 
+        Variable["TrustScore"] =
+        Variable["TrustScore"] + 1
+
 '
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 220
+        x: 27.247719
+        y: 225.50458
         width: 160
         height: 30
     - id: 6
@@ -503,7 +494,9 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 
+        value: 'SetActive(Negative);
+
+'
         type: 0
         typeString: CustomFieldType_Text
       conversationID: 1
@@ -521,7 +514,10 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: Variable["AtWork"] = true
+      userScript: 'Variable["AtWork"] = true;
+
+        Variable["TrustScore"] = Variable["TrustScore"]
+        - 1'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -613,7 +609,9 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 
+        value: 'SetActive(Trust Score);
+
+'
         type: 0
         typeString: CustomFieldType_Text
       - title: Response Menu Sequence
@@ -648,7 +646,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 123.78056
-        y: 320
+        y: 320.91742
         width: 160
         height: 30
     - id: 9
@@ -681,6 +679,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
       conversationID: 1
       isRoot: 0
       isGroup: 0
@@ -696,8 +698,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 4.6697235
-        y: 404.58948
+        x: 69.80735
+        y: 398.16748
         width: 160
         height: 30
     - id: 10
@@ -855,12 +857,12 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 426.52896
-        y: 443.96695
+        x: 428.36383
+        y: 449.47153
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 70.00652}
+    canvasScrollPosition: {x: 0, y: 87.437706}
     canvasZoom: 1.0899999
   syncInfo:
     syncActors: 0
