@@ -490,7 +490,10 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 'SetActive(Positive);
+        value: 'SetActive(Positive, true);
+
+          SetActive(Trust Background,
+          true);
 
 '
         type: 0
@@ -522,7 +525,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 27.247719
-        y: 224.37027
+        y: 223.27136
         width: 160
         height: 30
     - id: 6
@@ -552,9 +555,10 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 'SetActive(Negative);
+        value: 'SetActive(Negative, true);
 
-'
+          SetActive(Trust Background,
+          true);'
         type: 0
         typeString: CustomFieldType_Text
       conversationID: 1
@@ -637,7 +641,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 124.58716
-        y: 272.7523
+        y: 271.65338
         width: 160
         height: 30
     - id: 8
@@ -669,7 +673,12 @@ MonoBehaviour:
       - title: Sequence
         value: 'SetActive(Trust Score);
 
-'
+          SetActive(Positive, false);
+
+          SetActive(Trust
+          Background, false);
+
+          SetActive(Negative, false);'
         type: 0
         typeString: CustomFieldType_Text
       - title: Response Menu Sequence
