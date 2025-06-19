@@ -1005,7 +1005,10 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: 'AnimatorPlay(Character Speaking Animation, NPC);
+
+          AnimatorPlay(Return
+          To Not Speaking, Test);'
         type: 0
         typeString: 
       conversationID: 1
