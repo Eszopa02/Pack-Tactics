@@ -154,20 +154,6 @@ MonoBehaviour:
       value: Trust increases or decreases based on choice
       type: 0
       typeString: 
-  - id: 4
-    fields:
-    - title: Name
-      value: AnimationActive
-      type: 0
-      typeString: 
-    - title: Initial Value
-      value: True
-      type: 2
-      typeString: CustomFieldType_Boolean
-    - title: Description
-      value: 
-      type: 0
-      typeString: 
   conversations:
   - id: 1
     fields:
@@ -297,7 +283,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: "AnimatorPlay(Character Speaking Animation, NPC); \n"
+        value: 
         type: 0
         typeString: 
       - title: EventGuid
@@ -323,14 +309,14 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: Variable["AnimationActive"] = false;
+      userScript: 
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 120.000015
-        y: 71.09891
+        x: 118.90111
+        y: 70
         width: 160
         height: 30
     - id: 3
@@ -384,7 +370,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 120
+        x: 123.29669
         y: 121.09889
         width: 160
         height: 30
@@ -459,8 +445,8 @@ MonoBehaviour:
             m_CallState: 2
       canvasRect:
         serializedVersion: 2
-        x: 121.31578
-        y: 168.6842
+        x: 122.41469
+        y: 167.5853
         width: 160
         height: 30
     - id: 5
@@ -490,7 +476,10 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 'SetActive(Positive);
+        value: 'SetActive(Trust Background, true);
+
+          SetActive(Positive,
+          true);
 
 '
         type: 0
@@ -521,7 +510,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 27.247719
+        x: 29.445518
         y: 224.37027
         width: 160
         height: 30
@@ -552,7 +541,10 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 'SetActive(Negative);
+        value: 'SetActive(Trust Background, true);
+
+          SetActive(Negative,
+          true);
 
 '
         type: 0
@@ -582,7 +574,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 208.3471
-        y: 223.64288
+        y: 224.74179
         width: 160
         height: 30
     - id: 7
@@ -612,7 +604,12 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 
+        value: '
+
+          AnimatorPlay(Character Speaking Animation);
+
+          AnimatorPlay(Character
+          Speaking Animation, NPC);'
         type: 0
         typeString: CustomFieldType_Text
       conversationID: 1
@@ -636,7 +633,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 124.58716
+        x: 125.68605
         y: 272.7523
         width: 160
         height: 30
@@ -667,7 +664,10 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 'SetActive(Trust Score);
+        value: 'SetActive(Trust Background, false);
+
+          SetActive(Positive,
+          false);
 
 '
         type: 0
@@ -703,8 +703,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 124.698
-        y: 320
+        x: 122.5002
+        y: 321.0989
         width: 160
         height: 30
     - id: 9
@@ -756,7 +756,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 88.649315
+        x: 85.35261
         y: 382.12976
         width: 160
         height: 30
