@@ -432,7 +432,7 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls:
           - m_Target: {fileID: 7400000, guid: fb38efddd63da5a43a90c8ca408ce49e, type: 2}
-            m_TargetAssemblyTypeName: 
+            m_TargetAssemblyTypeName: UnityEngine.AnimationClip, UnityEngine
             m_MethodName: 
             m_Mode: 1
             m_Arguments:
