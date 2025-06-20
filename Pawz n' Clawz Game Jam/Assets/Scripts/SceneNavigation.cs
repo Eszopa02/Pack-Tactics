@@ -25,6 +25,11 @@ public class SceneNavigation : MonoBehaviour
     {
         SceneManager.LoadSceneAsync(3, LoadSceneMode.Additive);
     }
+    
+    public void PlayerSelection()
+    {
+        SceneManager.LoadSceneAsync(4, LoadSceneMode.Additive);
+    }
 
     public void QuitGame()
     {
