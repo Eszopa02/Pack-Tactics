@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class SelectedInHierarchy : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject SelectOne;
+    public GameObject SelectTwo;
+    public GameObject SelectThree;
+    public GameObject SelectFour;
+   
 
-    // Update is called once per frame
-    void Update()
+    public void OnButtonClicked()
     {
-        
+
     }
 }
