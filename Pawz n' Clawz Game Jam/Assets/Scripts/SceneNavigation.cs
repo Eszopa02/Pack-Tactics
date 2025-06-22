@@ -13,7 +13,8 @@ public class SceneNavigation : MonoBehaviour
 
     public void PlayButton()
     {
-        SceneManager.LoadSceneAsync(2, LoadSceneMode.Additive);
+        SceneManager.UnloadSceneAsync(1);
+        SceneManager.LoadSceneAsync(3, LoadSceneMode.Additive);
     }
 
     public void SettingsButton()
@@ -23,13 +24,9 @@ public class SceneNavigation : MonoBehaviour
 
     public void ManagerScene()
     {
-        SceneManager.LoadSceneAsync(3, LoadSceneMode.Additive);
+        SceneManager.LoadSceneAsync(2, LoadSceneMode.Additive);
     }
     
-    public void PlayerSelection()
-    {
-        SceneManager.LoadSceneAsync(4, LoadSceneMode.Additive);
-    }
 
     public void QuitGame()
     {
