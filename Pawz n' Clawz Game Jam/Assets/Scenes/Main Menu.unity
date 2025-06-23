@@ -405,7 +405,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 289131566}
         m_TargetAssemblyTypeName: SceneNavigation, Assembly-CSharp
-        m_MethodName: PlayButton
+        m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -480,7 +480,7 @@ RectTransform:
   m_GameObject: {fileID: 545186266}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.46083, y: 0.46083, z: 0.46083}
+  m_LocalScale: {x: 0.8122129, y: 0.46083, z: 0.46083}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 493852003}
@@ -729,7 +729,7 @@ RectTransform:
   m_GameObject: {fileID: 1357327913}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.46083, y: 0.46083, z: 0.46083}
+  m_LocalScale: {x: 0.783411, y: 0.46083, z: 0.46083}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1506374831}
@@ -1054,7 +1054,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 289131566}
         m_TargetAssemblyTypeName: SceneNavigation, Assembly-CSharp
-        m_MethodName: PlayButton
+        m_MethodName: ManagerScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1263,7 +1263,7 @@ RectTransform:
   m_GameObject: {fileID: 1987922144}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.46083, y: 0.46083, z: 0.46083}
+  m_LocalScale: {x: 0.6854846, y: 0.46083, z: 0.46083}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1524637679}
