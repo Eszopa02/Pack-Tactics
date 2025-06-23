@@ -510,6 +510,11 @@ MonoBehaviour:
           SetActive(Positive,
           true);
 
+          SetActive(Trust Progression - Zero, false);
+
+          SetActive(Trust
+          Progression - One, flase);
+
 '
         type: 0
         typeString: CustomFieldType_Text
@@ -575,6 +580,11 @@ MonoBehaviour:
           SetActive(Negative,
           true);
 
+          SetActive(Trust Progression - Zero, false);
+
+          SetActive(Trust
+          Progression - One, flase);
+
 '
         type: 0
         typeString: CustomFieldType_Text
@@ -602,7 +612,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 313.9531
+        x: 312.5245
         y: 266.587
         width: 160
         height: 30
@@ -727,8 +737,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 228.1062
-        y: 362.94418
+        x: 232.39194
+        y: 364.37274
         width: 160
         height: 30
     - id: 23
@@ -772,7 +782,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 23
+        destinationConversationID: 1
+        destinationDialogueID: 29
+        isConnector: 0
+        priority: 2
       conditionsString: Variable["AtWork"] == false
       userScript: 
       onExecute:
@@ -780,7 +796,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 190.95862
+        x: 192.38718
         y: 423.97507
         width: 160
         height: 30
@@ -1057,6 +1073,113 @@ MonoBehaviour:
         serializedVersion: 2
         x: 340.92514
         y: 589.5929
+        width: 160
+        height: 30
+    - id: 29
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 'Select two of your crew:'
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 29
+        destinationConversationID: 1
+        destinationDialogueID: 30
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 150.95862
+        y: 502.54648
+        width: 160
+        height: 30
+    - id: 30
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 'SetActive(Crew Member Selection Canvas, true);
+
+          SetActive(Player
+          Character Selection Canvas, false);'
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 150.95862
+        y: 552.5465
         width: 160
         height: 30
     entryGroups: []
