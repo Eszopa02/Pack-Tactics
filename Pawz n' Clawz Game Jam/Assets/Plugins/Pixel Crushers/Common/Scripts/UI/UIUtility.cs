@@ -14,7 +14,7 @@ namespace PixelCrushers
         /// <param name="message">If needing to add an EventSystem, show this message.</param>
         public static void RequireEventSystem(string message = null)
         {
-            var eventSystem = GameObjectUtility.FindFirstObjectByType<UnityEngine.EventSystems.EventSystem>();
+            var eventSystem = PixelCrushers.GameObjectUtility.FindFirstObjectByType<UnityEngine.EventSystems.EventSystem>();
             if (eventSystem == null)
             {
                 if (message != null) Debug.LogWarning(message);
@@ -46,11 +46,7 @@ namespace PixelCrushers
 
         public static int GetAnimatorNameHash(AnimatorStateInfo animatorStateInfo)
         {
-#if UNITY_4_3 || UNITY_4_5 || UNITY_4_6 || UNITY_4_7
-            return animatorStateInfo.nameHash;
-#else
             return animatorStateInfo.fullPathHash;
-#endif
         }
 
         /// <summary>
