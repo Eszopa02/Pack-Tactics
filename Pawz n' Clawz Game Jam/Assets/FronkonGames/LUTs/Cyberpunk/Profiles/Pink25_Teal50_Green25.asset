@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a42ac372852a6df4d808357247b2c940, type: 3}
+  m_Name: Pink25_Teal50_Green25
+  m_EditorClassIdentifier: 
+  quality: {fileID: 11700000, guid: 51c211c23db00724dbd3ccedd97eeb8a, type: 2}
+  performance: {fileID: 11700000, guid: 8468c101b75d4e14aa5e56910362a5e4, type: 2}

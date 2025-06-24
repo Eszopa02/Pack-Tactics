@@ -1,0 +1,17 @@
+{
+  "name": "com.fronkongames.luts.cyberpunk",
+  "version": "2.1.2",
+  "displayName": "LUTs: Cyberpunk",
+  "description": "Apocalyptic future, looking cool.",
+  "unity": "2021.3",
+  "unityRelease": "45f1",
+  "dependencies":  {  },
+  "documentationUrl": "https://fronkongames.github.io/store/luts/",
+  "keywords": [ "unity", "fps", "vr", "lut", "luts", "color", "grading", "cyberpunk", "dystopia", "tokyo", "scifi", "sci-fi" ],
+  "author":
+  {
+    "name": "Fronkon Games",
+    "email": "fronkongames@gmail.com",
+    "url": "https://fronkongames.github.io/store/luts/"
+  }
+}

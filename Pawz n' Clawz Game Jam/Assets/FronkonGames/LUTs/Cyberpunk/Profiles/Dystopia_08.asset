@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a42ac372852a6df4d808357247b2c940, type: 3}
+  m_Name: Dystopia_08
+  m_EditorClassIdentifier: 
+  quality: {fileID: 11700000, guid: c42e0787da95f7b4b85ea90a2fe83778, type: 2}
+  performance: {fileID: 11700000, guid: 3cf59787b04fa824c93e96e5e19157c8, type: 2}
