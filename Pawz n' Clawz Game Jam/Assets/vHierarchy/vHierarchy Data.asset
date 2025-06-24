@@ -17,6 +17,7 @@ MonoBehaviour:
     - 9fc0d4010bbf28b4594072e72b8655ab
     - 9be4567e3520ede4d816ea81791f8d0d
     - 6e79bf1a289694242850a7990de8d1b7
+    - 570de422ad06ec14b9ceade12db68e81
     values:
     - goDatas_byGlobalId:
         keys:
@@ -36,6 +37,8 @@ MonoBehaviour:
         - globalObjectIdString: GlobalObjectId_V1-2-9be4567e3520ede4d816ea81791f8d0d-289131562-0
         - globalObjectIdString: GlobalObjectId_V1-2-9be4567e3520ede4d816ea81791f8d0d-1593974187-0
         - globalObjectIdString: GlobalObjectId_V1-2-9be4567e3520ede4d816ea81791f8d0d-1114020807-0
+        - globalObjectIdString: GlobalObjectId_V1-2-9be4567e3520ede4d816ea81791f8d0d-493808321-0
+        - globalObjectIdString: GlobalObjectId_V1-2-9be4567e3520ede4d816ea81791f8d0d-1853190063-0
         values:
         - colorIndex: 0
           iconNameOrGuid: Camera Icon
@@ -49,12 +52,83 @@ MonoBehaviour:
           iconNameOrGuid: Folder Icon
           isIconRecursive: 0
           isColorRecursive: 0
+        - colorIndex: 0
+          iconNameOrGuid: Folder Icon
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 0
+          iconNameOrGuid: Folder Icon
+          isIconRecursive: 0
+          isColorRecursive: 0
     - goDatas_byGlobalId:
         keys:
         - globalObjectIdString: GlobalObjectId_V1-2-6e79bf1a289694242850a7990de8d1b7-1971836387-0
         values:
         - colorIndex: 0
           iconNameOrGuid: AudioSource Icon
+          isIconRecursive: 0
+          isColorRecursive: 0
+    - goDatas_byGlobalId:
+        keys:
+        - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-125850-334723645
+        - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-2043039542-0
+        - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-1433436700-0
+        - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-1529973582-0
+        - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-762132396-0
+        - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-793632854-0
+        - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-1571552112-0
+        - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-1143346497-0
+        - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-468330726-0
+        - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-134429550-0
+        - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-1607936943-0
+        - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-774284748-0
+        values:
+        - colorIndex: 8
+          iconNameOrGuid: 
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 0
+          iconNameOrGuid: Folder Icon
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 0
+          iconNameOrGuid: Folder Icon
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 9
+          iconNameOrGuid: 
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 8
+          iconNameOrGuid: 
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 7
+          iconNameOrGuid: 
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 0
+          iconNameOrGuid: Folder Icon
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 0
+          iconNameOrGuid: Folder Icon
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 0
+          iconNameOrGuid: Folder Icon
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 0
+          iconNameOrGuid: Folder Icon
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 0
+          iconNameOrGuid: Folder Icon
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 0
+          iconNameOrGuid: Folder Icon
           isIconRecursive: 0
           isColorRecursive: 0
   bookmarks: []
