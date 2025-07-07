@@ -919,7 +919,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 289131566}
         m_TargetAssemblyTypeName: SceneNavigation, Assembly-CSharp
-        m_MethodName: PlayButton
+        m_MethodName: ManagerScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
