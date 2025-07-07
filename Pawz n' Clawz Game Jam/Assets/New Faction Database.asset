@@ -1,0 +1,298 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a188b433183989440a69ac3b2d2e653a, type: 3}
+  m_Name: New Faction Database
+  m_EditorClassIdentifier: 
+  personalityTraitDefinitions: []
+  relationshipTraitDefinitions:
+  - name: Affinity
+    description: (Required)
+    minValue: -100
+    maxValue: 100
+    customData: 
+  presets: []
+  factions:
+  - id: 10
+    name: Mercenary
+    description: 
+    color: 0
+    parents: 
+    traits: []
+    relationships:
+    - factionID: 14
+      inheritable: 1
+      traits:
+      - 0
+    - factionID: 15
+      inheritable: 1
+      traits:
+      - 0
+    - factionID: 16
+      inheritable: 1
+      traits:
+      - 0
+    - factionID: 17
+      inheritable: 1
+      traits:
+      - 0
+    - factionID: 18
+      inheritable: 1
+      traits:
+      - 0
+    - factionID: 19
+      inheritable: 1
+      traits:
+      - 0
+    percentJudgeParents: 0
+  - id: 11
+    name: Average Joe
+    description: 
+    color: 0
+    parents: 
+    traits: []
+    relationships:
+    - factionID: 14
+      inheritable: 1
+      traits:
+      - 0
+    - factionID: 15
+      inheritable: 1
+      traits:
+      - 0
+    - factionID: 16
+      inheritable: 1
+      traits:
+      - 0
+    - factionID: 17
+      inheritable: 1
+      traits:
+      - 0
+    - factionID: 18
+      inheritable: 1
+      traits:
+      - 0
+    - factionID: 19
+      inheritable: 1
+      traits:
+      - 0
+    percentJudgeParents: 0
+  - id: 12
+    name: Corporate
+    description: 
+    color: 0
+    parents: 
+    traits: []
+    relationships:
+    - factionID: 14
+      inheritable: 1
+      traits:
+      - 0
+    - factionID: 15
+      inheritable: 1
+      traits:
+      - 0
+    - factionID: 16
+      inheritable: 1
+      traits:
+      - 0
+    - factionID: 17
+      inheritable: 1
+      traits:
+      - 0
+    - factionID: 18
+      inheritable: 1
+      traits:
+      - 0
+    - factionID: 19
+      inheritable: 1
+      traits:
+      - 0
+    percentJudgeParents: 0
+  - id: 13
+    name: Drifter
+    description: 
+    color: 0
+    parents: 
+    traits: []
+    relationships:
+    - factionID: 14
+      inheritable: 1
+      traits:
+      - 0
+    - factionID: 15
+      inheritable: 1
+      traits:
+      - 0
+    - factionID: 16
+      inheritable: 1
+      traits:
+      - 0
+    - factionID: 17
+      inheritable: 1
+      traits:
+      - 0
+    - factionID: 18
+      inheritable: 1
+      traits:
+      - 0
+    - factionID: 19
+      inheritable: 1
+      traits:
+      - 0
+    percentJudgeParents: 0
+  - id: 14
+    name: Mechanic
+    description: 
+    color: 1
+    parents: 
+    traits: []
+    relationships:
+    - factionID: 10
+      inheritable: 1
+      traits:
+      - 0
+    - factionID: 11
+      inheritable: 1
+      traits:
+      - 0
+    - factionID: 12
+      inheritable: 1
+      traits:
+      - 0
+    - factionID: 13
+      inheritable: 1
+      traits:
+      - 0
+    percentJudgeParents: 0
+  - id: 15
+    name: Fixer
+    description: 
+    color: 1
+    parents: 
+    traits: []
+    relationships:
+    - factionID: 10
+      inheritable: 1
+      traits:
+      - 0
+    - factionID: 11
+      inheritable: 1
+      traits:
+      - 0
+    - factionID: 12
+      inheritable: 1
+      traits:
+      - 0
+    - factionID: 13
+      inheritable: 1
+      traits:
+      - 0
+    percentJudgeParents: 0
+  - id: 16
+    name: Crew 1
+    description: 
+    color: 2
+    parents: 
+    traits: []
+    relationships:
+    - factionID: 10
+      inheritable: 1
+      traits:
+      - 0
+    - factionID: 11
+      inheritable: 1
+      traits:
+      - 0
+    - factionID: 12
+      inheritable: 1
+      traits:
+      - 0
+    - factionID: 13
+      inheritable: 1
+      traits:
+      - 0
+    percentJudgeParents: 0
+  - id: 17
+    name: Crew 2
+    description: 
+    color: 2
+    parents: 
+    traits: []
+    relationships:
+    - factionID: 10
+      inheritable: 1
+      traits:
+      - 0
+    - factionID: 11
+      inheritable: 1
+      traits:
+      - 0
+    - factionID: 13
+      inheritable: 1
+      traits:
+      - 0
+    - factionID: 12
+      inheritable: 1
+      traits:
+      - 0
+    percentJudgeParents: 0
+  - id: 18
+    name: Crew 3
+    description: 
+    color: 2
+    parents: 
+    traits: []
+    relationships:
+    - factionID: 10
+      inheritable: 1
+      traits:
+      - 0
+    - factionID: 11
+      inheritable: 1
+      traits:
+      - 0
+    - factionID: 12
+      inheritable: 1
+      traits:
+      - 0
+    - factionID: 13
+      inheritable: 1
+      traits:
+      - 0
+    percentJudgeParents: 0
+  - id: 19
+    name: Crew 4
+    description: 
+    color: 2
+    parents: 
+    traits: []
+    relationships:
+    - factionID: 10
+      inheritable: 1
+      traits:
+      - 0
+    - factionID: 11
+      inheritable: 1
+      traits:
+      - 0
+    - factionID: 12
+      inheritable: 1
+      traits:
+      - 0
+    - factionID: 13
+      inheritable: 1
+      traits:
+      - 0
+    percentJudgeParents: 0
+  traitInheritanceType: 0
+  relationshipInheritanceType: 0
+  nextID: 20
