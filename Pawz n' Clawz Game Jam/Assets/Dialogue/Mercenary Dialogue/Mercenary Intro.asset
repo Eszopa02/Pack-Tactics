@@ -781,7 +781,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 345
-        y: 470
+        y: 468.36066
         width: 160
         height: 30
     - id: 11
@@ -812,7 +812,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AnimatorPlay(Character Speaking Animation, Fixer);
         type: 0
         typeString: 
       conversationID: 1
@@ -867,7 +867,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AnimatorPlay(Return To Not Speaking, Fixer);
         type: 0
         typeString: 
       conversationID: 1
@@ -980,7 +980,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AnimatorPlay(Character Speaking Animation, Fixer);
         type: 0
         typeString: 
       conversationID: 1
@@ -1041,7 +1041,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AnimatorPlay(Return To Not Speaking, Fixer);
         type: 0
         typeString: 
       conversationID: 1
@@ -1096,7 +1096,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AnimatorPlay(Return To Not Speaking, Fixer);
         type: 0
         typeString: 
       conversationID: 1
@@ -1121,7 +1121,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 210
-        y: 720
+        y: 718.36066
         width: 160
         height: 30
     - id: 17
@@ -1151,7 +1151,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AnimatorPlay(Character Speaking Animation, Fixer);
         type: 0
         typeString: 
       conversationID: 1
@@ -1231,7 +1231,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
+        x: 31.639343
         y: 820
         width: 160
         height: 30
@@ -1318,7 +1318,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AnimatorPlay(Return To Not Speaking, Fixer);
         type: 0
         typeString: 
       conversationID: 1
@@ -1373,7 +1373,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AnimatorPlay(Character Speaking Animation, Fixer);
         type: 0
         typeString: 
       conversationID: 1
@@ -1539,7 +1539,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AnimatorPlay(Return To Not Speaking, Fixer);
         type: 0
         typeString: 
       conversationID: 1
@@ -1557,7 +1557,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 210
+        x: 208.36066
         y: 1120
         width: 160
         height: 30
@@ -1589,7 +1589,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AnimatorPlay(Character Speaking Animation, Fixer);
         type: 0
         typeString: 
       conversationID: 1
@@ -1756,7 +1756,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AnimatorPlay(Return To Not Speaking, Fixer);
         type: 0
         typeString: 
       conversationID: 1
@@ -1781,7 +1781,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 345
-        y: 920
+        y: 918.36066
         width: 160
         height: 30
     - id: 29
@@ -1973,7 +1973,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AnimatorPlay(Character Speaking Animation, Fixer);
         type: 0
         typeString: 
       conversationID: 1
@@ -1997,7 +1997,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 345
+        x: 346.63934
         y: 520
         width: 160
         height: 30
@@ -2028,7 +2028,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AnimatorPlay(Return To Not Speaking, Fixer);
         type: 0
         typeString: 
       conversationID: 1
@@ -2083,7 +2083,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AnimatorPlay(Character Speaking Animation, Fixer);
         type: 0
         typeString: 
       conversationID: 1
@@ -2195,7 +2195,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AnimatorPlay(Return To Not Speaking, Fixer);
         type: 0
         typeString: 
       conversationID: 1
@@ -2385,8 +2385,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.37000045
+    canvasScrollPosition: {x: 0, y: 144.2622}
+    canvasZoom: 0.6100004
   syncInfo:
     syncActors: 0
     syncItems: 0

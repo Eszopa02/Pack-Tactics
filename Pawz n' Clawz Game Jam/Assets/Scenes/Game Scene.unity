@@ -295,8 +295,9 @@ MonoBehaviour:
   removeTrigger: 64
   databases:
   - {fileID: 11400000, guid: 38599cbd716a4c041ba4f4b354ef86eb, type: 2}
-  - {fileID: 11400000, guid: 0a328c339bff982469aa11b42f7a9262, type: 2}
-  - {fileID: 11400000, guid: 4fc08eaa4b748d64eb2ee67fd4f1c7c8, type: 2}
+  - {fileID: 11400000, guid: 1a812727482e5db4caff82f58b5567ba, type: 2}
+  - {fileID: 11400000, guid: 2fc12f928b9c8014a80299a5484f87bf, type: 2}
+  - {fileID: 11400000, guid: 95b56ec3eab5d15478939678179d340e, type: 2}
   condition:
     luaConditions: []
     questConditions: []
@@ -655,9 +656,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e810b560e4cb5bf4998bfd43481fd267, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  databaseToLoad: {fileID: 11400000, guid: 0a328c339bff982469aa11b42f7a9262, type: 2}
-  databaseOneToUnload: {fileID: 11400000, guid: 38599cbd716a4c041ba4f4b354ef86eb, type: 2}
-  databaseTwoToUnload: {fileID: 11400000, guid: 4fc08eaa4b748d64eb2ee67fd4f1c7c8, type: 2}
+  databaseToLoad: {fileID: 11400000, guid: 323a8eb539dbdbe4f9bd11552ec01f2b, type: 2}
+  databaseOneToUnload: {fileID: 11400000, guid: 1a812727482e5db4caff82f58b5567ba, type: 2}
+  databaseTwoToUnload: {fileID: 11400000, guid: 2fc12f928b9c8014a80299a5484f87bf, type: 2}
+  databaseThreeToUnload: {fileID: 11400000, guid: 95b56ec3eab5d15478939678179d340e, type: 2}
 --- !u!114 &147989193
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -735,7 +737,7 @@ MonoBehaviour:
   useConversationTitlePicker: 1
   useBarkTitlePicker: 1
   useQuestNamePicker: 1
-  selectedDatabase: {fileID: 11400000, guid: 0a328c339bff982469aa11b42f7a9262, type: 2}
+  selectedDatabase: {fileID: 11400000, guid: 323a8eb539dbdbe4f9bd11552ec01f2b, type: 2}
 --- !u!114 &147989194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1202,9 +1204,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e810b560e4cb5bf4998bfd43481fd267, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  databaseToLoad: {fileID: 11400000, guid: 4fc08eaa4b748d64eb2ee67fd4f1c7c8, type: 2}
-  databaseOneToUnload: {fileID: 11400000, guid: 0a328c339bff982469aa11b42f7a9262, type: 2}
-  databaseTwoToUnload: {fileID: 11400000, guid: 38599cbd716a4c041ba4f4b354ef86eb, type: 2}
+  databaseToLoad: {fileID: 11400000, guid: 2fc12f928b9c8014a80299a5484f87bf, type: 2}
+  databaseOneToUnload: {fileID: 11400000, guid: 323a8eb539dbdbe4f9bd11552ec01f2b, type: 2}
+  databaseTwoToUnload: {fileID: 11400000, guid: 1a812727482e5db4caff82f58b5567ba, type: 2}
+  databaseThreeToUnload: {fileID: 11400000, guid: 95b56ec3eab5d15478939678179d340e, type: 2}
 --- !u!114 &188704585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1282,7 +1285,7 @@ MonoBehaviour:
   useConversationTitlePicker: 1
   useBarkTitlePicker: 1
   useQuestNamePicker: 1
-  selectedDatabase: {fileID: 11400000, guid: 4fc08eaa4b748d64eb2ee67fd4f1c7c8, type: 2}
+  selectedDatabase: {fileID: 11400000, guid: 2fc12f928b9c8014a80299a5484f87bf, type: 2}
 --- !u!114 &188704586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3024,9 +3027,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e810b560e4cb5bf4998bfd43481fd267, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  databaseToLoad: {fileID: 11400000, guid: 4fc08eaa4b748d64eb2ee67fd4f1c7c8, type: 2}
-  databaseOneToUnload: {fileID: 11400000, guid: 0a328c339bff982469aa11b42f7a9262, type: 2}
-  databaseTwoToUnload: {fileID: 11400000, guid: 38599cbd716a4c041ba4f4b354ef86eb, type: 2}
+  databaseToLoad: {fileID: 11400000, guid: 1a812727482e5db4caff82f58b5567ba, type: 2}
+  databaseOneToUnload: {fileID: 11400000, guid: 2fc12f928b9c8014a80299a5484f87bf, type: 2}
+  databaseTwoToUnload: {fileID: 11400000, guid: 95b56ec3eab5d15478939678179d340e, type: 2}
+  databaseThreeToUnload: {fileID: 11400000, guid: 323a8eb539dbdbe4f9bd11552ec01f2b, type: 2}
 --- !u!114 &605851602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3104,7 +3108,7 @@ MonoBehaviour:
   useConversationTitlePicker: 1
   useBarkTitlePicker: 1
   useQuestNamePicker: 1
-  selectedDatabase: {fileID: 11400000, guid: 4fc08eaa4b748d64eb2ee67fd4f1c7c8, type: 2}
+  selectedDatabase: {fileID: 11400000, guid: 1a812727482e5db4caff82f58b5567ba, type: 2}
 --- !u!114 &605851603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4675,6 +4679,7 @@ GameObject:
   - component: {fileID: 812103035}
   - component: {fileID: 812103036}
   - component: {fileID: 812103037}
+  - component: {fileID: 812103038}
   m_Layer: 5
   m_Name: Fixer
   m_TagString: Untagged
@@ -4881,6 +4886,84 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &812103038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812103026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c593457cd8105e148906690e1707c592, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: 16
+  condition:
+    luaConditions: []
+    questConditions: []
+    acceptedTags: []
+    acceptedGameObjects: []
+    luaWizardIndex: -1
+    lastEvaluationValue: 0
+  setQuestState: 1
+  questName: 
+  questState: 0
+  setQuestEntryState: 0
+  questEntryNumber: 1
+  questEntryState: 0
+  setAnotherQuestEntryState: 0
+  anotherQuestEntryNumber: 1
+  anotherQuestEntryState: 0
+  luaCode: 
+  sequence: 
+  sequenceSpeaker: {fileID: 0}
+  sequenceListener: {fileID: 0}
+  waitOneFrameOnStartOrEnable: 1
+  alertMessage: 
+  textTable: {fileID: 0}
+  alertDuration: 0
+  sendMessages: []
+  barkSource: 0
+  barkConversation: 
+  barkEntryID: -1
+  barkEntryTitle: 
+  barkText: 
+  barkTextSequence: 
+  barker: {fileID: 0}
+  barkTarget: {fileID: 0}
+  barkOrder: 0
+  allowBarksDuringConversations: 0
+  skipBarkIfNoValidEntries: 0
+  cacheBarkLines: 0
+  conversation: New Conversation 1
+  conversationConversant: {fileID: 0}
+  conversationActor: {fileID: 812103027}
+  startConversationEntryID: -1
+  startConversationEntryTitle: 
+  overrideDialogueUI: {fileID: 0}
+  exclusive: 0
+  replace: 0
+  queue: 0
+  skipIfNoValidEntries: 0
+  preventRestartOnSameFrameEnded: 0
+  stopConversationOnTriggerExit: 0
+  marginToAllowTriggerExit: 0.2
+  stopConversationIfTooFar: 0
+  maxConversationDistance: 5
+  monitorConversationDistanceFrequency: 1
+  showCursorDuringConversation: 0
+  pauseGameDuringConversation: 0
+  setActiveActions: []
+  setEnabledActions: []
+  setAnimatorStateActions: []
+  onExecute:
+    m_PersistentCalls:
+      m_Calls: []
+  useConversationTitlePicker: 1
+  useBarkTitlePicker: 1
+  useQuestNamePicker: 1
+  selectedDatabase: {fileID: 11400000, guid: 95b56ec3eab5d15478939678179d340e, type: 2}
 --- !u!1 &825048667
 GameObject:
   m_ObjectHideFlags: 0
@@ -6568,9 +6651,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e810b560e4cb5bf4998bfd43481fd267, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  databaseToLoad: {fileID: 11400000, guid: 38599cbd716a4c041ba4f4b354ef86eb, type: 2}
-  databaseOneToUnload: {fileID: 11400000, guid: 0a328c339bff982469aa11b42f7a9262, type: 2}
-  databaseTwoToUnload: {fileID: 11400000, guid: 4fc08eaa4b748d64eb2ee67fd4f1c7c8, type: 2}
+  databaseToLoad: {fileID: 11400000, guid: 95b56ec3eab5d15478939678179d340e, type: 2}
+  databaseOneToUnload: {fileID: 11400000, guid: 1a812727482e5db4caff82f58b5567ba, type: 2}
+  databaseTwoToUnload: {fileID: 11400000, guid: 2fc12f928b9c8014a80299a5484f87bf, type: 2}
+  databaseThreeToUnload: {fileID: 11400000, guid: 323a8eb539dbdbe4f9bd11552ec01f2b, type: 2}
 --- !u!114 &1163031376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6648,7 +6732,7 @@ MonoBehaviour:
   useConversationTitlePicker: 1
   useBarkTitlePicker: 1
   useQuestNamePicker: 1
-  selectedDatabase: {fileID: 11400000, guid: 38599cbd716a4c041ba4f4b354ef86eb, type: 2}
+  selectedDatabase: {fileID: 11400000, guid: 95b56ec3eab5d15478939678179d340e, type: 2}
 --- !u!114 &1163031377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8381,7 +8465,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1529973583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8485,7 +8569,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1571552113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11066,7 +11150,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2043039543
 RectTransform:
   m_ObjectHideFlags: 0

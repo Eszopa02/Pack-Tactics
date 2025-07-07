@@ -8,6 +8,7 @@ public class DatabaseSwitcher : MonoBehaviour
     public DialogueDatabase databaseToLoad;
     public DialogueDatabase databaseOneToUnload;
     public DialogueDatabase databaseTwoToUnload;
+    public DialogueDatabase databaseThreeToUnload;
 
     public void OnButtonClick()
     {
@@ -19,6 +20,7 @@ public class DatabaseSwitcher : MonoBehaviour
         {
             DialogueManager.RemoveDatabase(databaseOneToUnload);
             DialogueManager.RemoveDatabase(databaseTwoToUnload);
+            DialogueManager.RemoveDatabase(databaseThreeToUnload);
         }
     }
 

@@ -473,7 +473,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AnimatorPlay(Character Speaking Animation, Fixer);
         type: 0
         typeString: 
       conversationID: 1
@@ -583,7 +583,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AnimatorPlay(Return To Not Speaking, Fixer);
         type: 0
         typeString: 
       conversationID: 1
@@ -639,7 +639,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AnimatorPlay(Character Speaking Animation, Fixer);
         type: 0
         typeString: 
       conversationID: 1
@@ -695,7 +695,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AnimatorPlay(Return To Not Speaking, Fixer);
         type: 0
         typeString: 
       conversationID: 1
@@ -948,7 +948,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 300
-        y: 620
+        y: 622.7027
         width: 160
         height: 30
     - id: 14
@@ -1089,7 +1089,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AnimatorPlay(Character Speaking Animation, Fixer);
         type: 0
         typeString: 
       conversationID: 1
@@ -1272,7 +1272,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AnimatorPlay(Return To Not Speaking, Fixer);
         type: 0
         typeString: 
       conversationID: 1
@@ -1327,7 +1327,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AnimatorPlay(Return To Not Speaking, Fixer);
         type: 0
         typeString: 
       conversationID: 1
@@ -1383,7 +1383,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AnimatorPlay(Return To Not Speaking, Fixer);
         type: 0
         typeString: 
       conversationID: 1
@@ -1438,7 +1438,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AnimatorPlay(Return To Not Speaking, Fixer);
         type: 0
         typeString: 
       conversationID: 1
@@ -1995,7 +1995,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AnimatorPlay(Character Speaking Animation, Fixer);
         type: 0
         typeString: 
       conversationID: 1
@@ -2093,7 +2093,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 1236
-        y: 1070
+        y: 1064.8276
         width: 160
         height: 30
     - id: 34
@@ -2373,7 +2373,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 120
-        y: 1170
+        y: 1168.2759
         width: 160
         height: 30
     - id: 39
@@ -2483,7 +2483,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 120
+        x: 121.72414
         y: 1270
         width: 160
         height: 30
@@ -2515,7 +2515,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AnimatorPlay(Character Speaking Animation, Fixer);
         type: 0
         typeString: 
       conversationID: 1
@@ -2957,7 +2957,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AnimatorPlay(Character Speaking Animation, Fixer);
         type: 0
         typeString: 
       conversationID: 1
@@ -3728,7 +3728,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AnimatorPlay(Character Speaking Animation, Fixer);
         type: 0
         typeString: 
       conversationID: 1
@@ -3752,7 +3752,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1200
+        x: 1205.1724
         y: 1270
         width: 160
         height: 30
@@ -3783,7 +3783,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AnimatorPlay(Character Speaking Animation, Fixer);
         type: 0
         typeString: 
       conversationID: 1
@@ -3861,8 +3861,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.37000045
+    canvasScrollPosition: {x: 0, y: 544.2388}
+    canvasZoom: 0.5800004
   syncInfo:
     syncActors: 0
     syncItems: 0
@@ -3872,4 +3872,9 @@ MonoBehaviour:
     syncItemsDatabase: {fileID: 0}
     syncLocationsDatabase: {fileID: 0}
     syncVariablesDatabase: {fileID: 0}
-  templateJson: 
+  templateJson: '{"treatItemsAsQuests":true,"actorFields":[{"title":"Name","value":"","type":0,"typeString":""},{"title":"Pictures","value":"[]","type":3,"typeString":"CustomFieldType_Files"},{"title":"Description","value":"","type":0,"typeString":""},{"title":"IsPlayer","value":"False","type":2,"typeString":"CustomFieldType_Boolean"}],"itemFields":[{"title":"Name","value":"","type":0,"typeString":""},{"title":"Pictures","value":"[]","type":3,"typeString":"CustomFieldType_Files"},{"title":"Description","value":"","type":0,"typeString":""},{"title":"Is
+    Item","value":"True","type":2,"typeString":"CustomFieldType_Boolean"}],"questFields":[{"title":"Name","value":"","type":0,"typeString":""},{"title":"Pictures","value":"[]","type":3,"typeString":"CustomFieldType_Files"},{"title":"Description","value":"","type":0,"typeString":""},{"title":"Success
+    Description","value":"","type":0,"typeString":""},{"title":"Failure Description","value":"","type":0,"typeString":""},{"title":"State","value":"unassigned","type":0,"typeString":""},{"title":"Is
+    Item","value":"False","type":2,"typeString":"CustomFieldType_Boolean"}],"locationFields":[{"title":"Name","value":"","type":0,"typeString":""},{"title":"Description","value":"","type":0,"typeString":""}],"variableFields":[{"title":"Name","value":"","type":0,"typeString":""},{"title":"Initial
+    Value","value":"","type":0,"typeString":""},{"title":"Description","value":"","type":0,"typeString":""}],"conversationFields":[{"title":"Title","value":"","type":0,"typeString":""},{"title":"Description","value":"","type":0,"typeString":""},{"title":"Actor","value":"0","type":5,"typeString":"CustomFieldType_Actor"},{"title":"Conversant","value":"0","type":5,"typeString":"CustomFieldType_Actor"}],"dialogueEntryFields":[{"title":"Title","value":"","type":0,"typeString":""},{"title":"Description","value":"","type":0,"typeString":""},{"title":"Actor","value":"","type":5,"typeString":"CustomFieldType_Actor"},{"title":"Conversant","value":"","type":5,"typeString":"CustomFieldType_Actor"},{"title":"Menu
+    Text","value":"","type":0,"typeString":""},{"title":"Dialogue Text","value":"","type":0,"typeString":""},{"title":"Sequence","value":"","type":0,"typeString":""}],"actorPrimaryFieldTitles":[],"itemPrimaryFieldTitles":[],"questPrimaryFieldTitles":[],"locationPrimaryFieldTitles":[],"variablePrimaryFieldTitles":[],"conversationPrimaryFieldTitles":[],"dialogueEntryPrimaryFieldTitles":[],"npcLineColor":{"r":1.0,"g":0.0,"b":0.0,"a":1.0},"pcLineColor":{"r":0.0,"g":0.0,"b":1.0,"a":1.0},"repeatLineColor":{"r":0.5,"g":0.5,"b":0.5,"a":1.0}}'
