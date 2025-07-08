@@ -117,7 +117,7 @@ MonoBehaviour:
     - title: Initial Value
       value: 
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Description
       value: 
       type: 0
@@ -611,7 +611,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 660
+        x: 658.1818
         y: 370
         width: 160
         height: 30
@@ -1062,7 +1062,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 300
+        x: 298.27588
         y: 720
         width: 160
         height: 30
@@ -1173,7 +1173,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 300
-        y: 820
+        y: 818.1818
         width: 160
         height: 30
     - id: 18
@@ -1300,7 +1300,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 750
+        x: 751.8182
         y: 1120
         width: 160
         height: 30
@@ -2154,7 +2154,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 84
-        y: 970
+        y: 968.18176
         width: 160
         height: 30
     - id: 35
@@ -3757,7 +3757,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 1205.1724
-        y: 1270
+        y: 1268.1818
         width: 160
         height: 30
     - id: 64
@@ -3787,7 +3787,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: AnimatorPlay(Character Speaking Animation, Fixer);
+        value: 
         type: 0
         typeString: 
       conversationID: 1
@@ -3865,8 +3865,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 544.2388}
-    canvasZoom: 0.5800004
+    canvasScrollPosition: {x: 0, y: 521.9529}
+    canvasZoom: 0.5500004
   syncInfo:
     syncActors: 0
     syncItems: 0
