@@ -1644,7 +1644,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: You need this, more than ever.
+        value: '"You need this, more than ever."'
         type: 0
         typeString: 
       - title: Sequence
@@ -2389,8 +2389,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.64000034
+    canvasScrollPosition: {x: 0, y: 379.0055}
+    canvasZoom: 0.5500004
   syncInfo:
     syncActors: 0
     syncItems: 0
