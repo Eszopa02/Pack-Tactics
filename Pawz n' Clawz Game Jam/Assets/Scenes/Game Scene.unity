@@ -12579,7 +12579,7 @@ GameObject:
   - component: {fileID: 1377425611}
   - component: {fileID: 1377425610}
   - component: {fileID: 1377425609}
-  - component: {fileID: 1377425608}
+  - component: {fileID: 1377425612}
   m_Layer: 5
   m_Name: Windowed
   m_TagString: Untagged
@@ -12607,19 +12607,6 @@ RectTransform:
   m_AnchoredPosition: {x: 32.6, y: 1}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1377425608
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1377425606}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef8a227d120c112469251957f613b085, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  toggleButton: {fileID: 1377425609}
 --- !u!114 &1377425609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12664,9 +12651,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1377425608}
-        m_TargetAssemblyTypeName: ScreenManager, Assembly-CSharp
-        m_MethodName: ToggleFullScreen
+      - m_Target: {fileID: 1377425612}
+        m_TargetAssemblyTypeName: SetWindowedMode, Assembly-CSharp
+        m_MethodName: OnButtonPress
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12714,6 +12701,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1377425606}
   m_CullTransparentMesh: 1
+--- !u!114 &1377425612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377425606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdb62ea9135357a4da074f5710f725a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1386578655
 GameObject:
   m_ObjectHideFlags: 0
