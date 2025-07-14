@@ -82,6 +82,12 @@ MonoBehaviour:
         - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-134429550-0
         - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-1607936943-0
         - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-774284748-0
+        - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-493808321-0
+        - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-462658052-0
+        - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-1359153064-0
+        - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-1009327784-0
+        - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-1061644184-0
+        - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-1339749231-0
         values:
         - colorIndex: 8
           iconNameOrGuid: 
@@ -129,6 +135,30 @@ MonoBehaviour:
           isColorRecursive: 0
         - colorIndex: 0
           iconNameOrGuid: Folder Icon
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 9
+          iconNameOrGuid: Folder Icon
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 8
+          iconNameOrGuid: Folder Icon
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 7
+          iconNameOrGuid: Folder Icon
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 0
+          iconNameOrGuid: Camera Icon
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 0
+          iconNameOrGuid: AudioReverbZone Icon
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 0
+          iconNameOrGuid: WheelCollider Icon
           isIconRecursive: 0
           isColorRecursive: 0
   bookmarks: []

@@ -9,9 +9,9 @@ public class TextSizeChanger : MonoBehaviour
     public Text nPCText;
     public Text responseText;
 
-    public int smallSize = 20;
+    public int smallSize = 5;
 
-    public int mediumSize = 25;
+    public int mediumSize = 15;
 
     public int LargeSize = 30;
 

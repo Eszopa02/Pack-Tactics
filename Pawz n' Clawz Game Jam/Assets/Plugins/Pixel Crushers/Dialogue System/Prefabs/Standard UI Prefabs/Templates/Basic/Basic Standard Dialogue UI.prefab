@@ -319,8 +319,8 @@ MonoBehaviour:
   subtitleText: {fileID: 11445008}
   nPCText: {fileID: 11456524}
   responseText: {fileID: 11499256}
-  smallSize: 20
-  mediumSize: 25
+  smallSize: 5
+  mediumSize: 15
   LargeSize: 30
 --- !u!1 &105778
 GameObject:
