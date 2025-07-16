@@ -88,6 +88,7 @@ MonoBehaviour:
         - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-1009327784-0
         - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-1061644184-0
         - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-1339749231-0
+        - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-1076790252-0
         values:
         - colorIndex: 8
           iconNameOrGuid: 
@@ -159,6 +160,10 @@ MonoBehaviour:
           isColorRecursive: 0
         - colorIndex: 0
           iconNameOrGuid: WheelCollider Icon
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 6
+          iconNameOrGuid: 
           isIconRecursive: 0
           isColorRecursive: 0
   bookmarks: []
