@@ -89,6 +89,11 @@ MonoBehaviour:
         - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-1061644184-0
         - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-1339749231-0
         - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-1076790252-0
+        - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-1367805525-0
+        - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-712231694-0
+        - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-1758123812-0
+        - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-862690334-0
+        - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-776766963-0
         values:
         - colorIndex: 8
           iconNameOrGuid: 
@@ -103,7 +108,7 @@ MonoBehaviour:
           isIconRecursive: 0
           isColorRecursive: 0
         - colorIndex: 9
-          iconNameOrGuid: 
+          iconNameOrGuid: Folder Icon
           isIconRecursive: 0
           isColorRecursive: 0
         - colorIndex: 8
@@ -148,7 +153,7 @@ MonoBehaviour:
           isColorRecursive: 0
         - colorIndex: 7
           iconNameOrGuid: Folder Icon
-          isIconRecursive: 0
+          isIconRecursive: 1
           isColorRecursive: 0
         - colorIndex: 0
           iconNameOrGuid: Camera Icon
@@ -164,6 +169,26 @@ MonoBehaviour:
           isColorRecursive: 0
         - colorIndex: 6
           iconNameOrGuid: 
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 5
+          iconNameOrGuid: 
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 0
+          iconNameOrGuid: AvatarMask On Icon
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 0
+          iconNameOrGuid: ScriptableObject Icon
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 0
+          iconNameOrGuid: DirectionalLight Icon
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 0
+          iconNameOrGuid: LightProbes Icon
           isIconRecursive: 0
           isColorRecursive: 0
   bookmarks: []
