@@ -1,2 +1,2 @@
-# Pawz n' Clawz Game Jam
+# Pack Tactics
 
