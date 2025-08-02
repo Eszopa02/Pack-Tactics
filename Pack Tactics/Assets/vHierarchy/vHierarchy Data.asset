@@ -94,6 +94,13 @@ MonoBehaviour:
         - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-1758123812-0
         - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-862690334-0
         - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-776766963-0
+        - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-1421265921-0
+        - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-1513483772-0
+        - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-258660459-0
+        - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-1483569025-0
+        - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-294288393-0
+        - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-1298566762-0
+        - globalObjectIdString: GlobalObjectId_V1-2-570de422ad06ec14b9ceade12db68e81-192877043-0
         values:
         - colorIndex: 8
           iconNameOrGuid: 
@@ -189,6 +196,34 @@ MonoBehaviour:
           isColorRecursive: 0
         - colorIndex: 0
           iconNameOrGuid: LightProbes Icon
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 0
+          iconNameOrGuid: AudioListener Icon
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 0
+          iconNameOrGuid: AudioSource Icon
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 0
+          iconNameOrGuid: AudioSource Icon
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 9
+          iconNameOrGuid: 
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 9
+          iconNameOrGuid: 
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 8
+          iconNameOrGuid: 
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 0
+          iconNameOrGuid: AudioListener Icon
           isIconRecursive: 0
           isColorRecursive: 0
   bookmarks: []

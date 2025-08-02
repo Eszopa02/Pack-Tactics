@@ -184,7 +184,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 2
+        value: -1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -221,7 +221,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 496
-        y: 50
+        y: 47.82608
         width: 160
         height: 30
     - id: 1
@@ -335,7 +335,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 496
-        y: 218
+        y: 215.9592
         width: 160
         height: 30
     - id: 3
@@ -730,7 +730,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 496
-        y: 806
+        y: 804.2758
         width: 160
         height: 30
     - id: 10
@@ -1411,8 +1411,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 496
-        y: 1562
+        x: 492.7213
+        y: 1558.7212
         width: 160
         height: 30
     - id: 22
@@ -1667,7 +1667,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AnimatorPlay(Character Speaking Animation, Fixer);
         type: 0
         typeString: 
       conversationID: 1
@@ -1691,7 +1691,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 912
+        x: 914.17395
         y: 1226
         width: 160
         height: 30
@@ -1779,7 +1779,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AnimatorPlay(Return To Not Speaking, Fixer);
         type: 0
         typeString: 
       conversationID: 1
@@ -1804,7 +1804,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 912
-        y: 1394
+        y: 1391.8262
         width: 160
         height: 30
     - id: 29
@@ -3526,7 +3526,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: You have little else beyond a heat full of desperation and determination,
+        value: You have little else beyond a heart full of desperation and determination,
           but what others don't understand is that having nothing to lose was unraveling
           inside you - a fire ignited by months spent watching helplessly while debt
           crippling you both grew to monstrous proportions.
@@ -3751,7 +3751,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: '""Alright, I''ll give you a chance, but you know how high the stakes
+        value: '"Alright, I''ll give you a chance, but you know how high the stakes
           are. "'
         type: 0
         typeString: 
@@ -3921,7 +3921,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 'SetActive(Text Message Transition, true);
+        value: 'SetActive(Thank You For Playing, true);
 
           SetActive(Canvas,
           false);'
@@ -3973,7 +3973,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 'SetActive(Text Message Transition, true);
+        value: 'SetActive(Thank You For Playing, true);
 
           SetActive(Canvas,
           false);'
@@ -4025,7 +4025,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 'SetActive(Text Message Transition, true);
+        value: 'SetActive(Thank You For Playing, true);
 
           SetActive(Canvas,
           false);'
@@ -4077,7 +4077,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 'SetActive(Text Message Transition, true);
+        value: 'SetActive(Thank You For Playing, true);
 
           SetActive(Canvas,
           false);'
@@ -4103,8 +4103,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 1589.0903}
-    canvasZoom: 0.5500004
+    canvasScrollPosition: {x: 8.695557, y: 0}
+    canvasZoom: 0.46000046
   syncInfo:
     syncActors: 0
     syncItems: 0

@@ -180,11 +180,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: -1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -220,8 +220,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 392
-        y: 50
+        x: 389.95917
+        y: 47.959198
         width: 160
         height: 30
     - id: 1
@@ -499,7 +499,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 288
+        x: 285.9592
         y: 470
         width: 160
         height: 30
@@ -1292,7 +1292,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 80
-        y: 1478
+        y: 1476.0769
         width: 160
         height: 30
     - id: 20
@@ -1623,7 +1623,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 288
+        x: 289.92307
         y: 1310
         width: 160
         height: 30
@@ -2235,8 +2235,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 496
-        y: 1226
+        x: 494.07697
+        y: 1224.0769
         width: 160
         height: 30
     - id: 37
@@ -2417,11 +2417,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 2
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -2433,7 +2433,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 'SetActive(Text Message Transition, true);
+        value: 'SetActive(Thank You For Playing, true);
 
           SetActive(Canvas,
           false);'
@@ -2469,11 +2469,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 2
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -2485,7 +2485,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 'SetActive(Text Message Transition, true);
+        value: 'SetActive(Thank You For Playing, true);
 
           SetActive(Canvas,
           false);'
@@ -2521,11 +2521,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 2
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -2537,7 +2537,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 'SetActive(Text Message Transition, true);
+        value: 'SetActive(Thank You For Playing, true);
 
           SetActive(Canvas,
           false);'
@@ -2564,7 +2564,7 @@ MonoBehaviour:
         height: 30
     entryGroups: []
     canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.49000046
+    canvasZoom: 0.52000046
   syncInfo:
     syncActors: 0
     syncItems: 0

@@ -180,7 +180,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 2
+        value: -1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -216,7 +216,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 184
+        x: 182.4375
         y: 50
         width: 160
         height: 30
@@ -362,7 +362,7 @@ MonoBehaviour:
         value: For weeks now, you've been navigating through odd jobs - mopping floors
           at diners, helping out as extra muscle for local clubs - but nothing paid
           enough to stabilize your shaky finances. Yet, you've been scraping by for
-          weeks, sleeping rough under bridges or on the floors of abandonbuildings,
+          weeks, sleeping rough under bridges or on the floors of abandoned buildings,
           refusing to give up.
         type: 0
         typeString: 
@@ -992,7 +992,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: AnimatorPlay(Return To Not Speaking, Fixer);
+        value: 
         type: 0
         typeString: 
       conversationID: 1
@@ -1329,7 +1329,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: AnimatorPlay(Return To Not Speaking, Fixer);
+        value: 
         type: 0
         typeString: 
       conversationID: 1
@@ -1939,10 +1939,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 'SetActive(Text Message Transition, true);
-
-          SetActive(Canvas,
-          false);'
+        value: 
         type: 0
         typeString: 
       conversationID: 1
@@ -1997,7 +1994,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AnimatorPlay(Return To Not Speaking, Fixer);
         type: 0
         typeString: 
       conversationID: 1
@@ -2052,7 +2049,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AnimatorPlay(Character Speaking Animation, Fixer);
         type: 0
         typeString: 
       conversationID: 1
@@ -2163,7 +2160,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AnimatorPlay(Return To Not Speaking, Fixer);
         type: 0
         typeString: 
       conversationID: 1
@@ -2214,7 +2211,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: So...
+        value: '"So..."'
         type: 0
         typeString: 
       - title: Sequence
@@ -2367,11 +2364,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -2383,7 +2380,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 'SetActive(Text Message Transition, true);
+        value: 'SetActive(Thank You For Playing, true);
 
           SetActive(Canvas,
           false);'
@@ -2404,7 +2401,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 74.08165
+        x: 72.51915
         y: 1823.4222
         width: 160
         height: 30
@@ -2435,7 +2432,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 'SetActive(Text Message Transition, true);
+        value: 'SetActive(Thank You For Playing, true);
 
           SetActive(Canvas,
           false);'
@@ -2461,8 +2458,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 1155.1975}
-    canvasZoom: 0.6100004
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.64000034
   syncInfo:
     syncActors: 0
     syncItems: 0

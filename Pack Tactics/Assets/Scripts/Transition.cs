@@ -58,8 +58,8 @@ public class Transition : MonoBehaviour
     {
         IntroScene.SetActive(false);
         MainMenu.SetActive(false);
-        PlayerSelect.SetActive(true);
-        SettingsScene.SetActive(false);
+        PlayerSelect.SetActive(false);
+        SettingsScene.SetActive(true);
     }
 
     public void ReturnToGame()
