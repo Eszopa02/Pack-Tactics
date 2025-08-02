@@ -9,6 +9,11 @@ public class Transition : MonoBehaviour
     public GameObject IntroScene;
     public GameObject SettingsScene;
 
+    public GameObject Menu2;
+    public GameObject SettingsScreen2;
+
+    
+
     public void StartGame()
     {
         MainMenu.SetActive(false);
@@ -25,19 +30,43 @@ public class Transition : MonoBehaviour
         MainMenu.SetActive(true);
     }
 
-    public void SettingsMenu()
+    public void MainMenu2()
+    {
+        IntroScene.SetActive(false);
+        PlayerSelect.SetActive(false);
+        SettingsScene.SetActive(false);
+        Menu2.SetActive(true);
+    }
+
+    public void StartGame2()
+    {
+        IntroScene.SetActive(true);
+        PlayerSelect.SetActive(false);
+        SettingsScene.SetActive(false);
+        Menu2.SetActive(false);
+    }
+
+    public void Settings2()
     {
         IntroScene.SetActive(false);
         MainMenu.SetActive(false);
         PlayerSelect.SetActive(false);
-        SettingsScene.SetActive(true);
+        SettingsScreen2.SetActive(true);
+    }
+
+    public void SettingsMenu()
+    {
+        IntroScene.SetActive(false);
+        MainMenu.SetActive(false);
+        PlayerSelect.SetActive(true);
+        SettingsScene.SetActive(false);
     }
 
     public void ReturnToGame()
     {
         MainMenu.SetActive(false);
-        PlayerSelect.SetActive(false);
-        IntroScene.SetActive(true);
+        PlayerSelect.SetActive(true);
+        IntroScene.SetActive(false);
         SettingsScene.SetActive(false);
     }
 
