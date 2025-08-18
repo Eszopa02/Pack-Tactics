@@ -16992,7 +16992,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1076790253}
   m_Layer: 5
-  m_Name: Test Message Transition
+  m_Name: Text Message Transition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19219,7 +19219,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1298566763
 Transform:
   m_ObjectHideFlags: 0
@@ -24113,7 +24113,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3e2e9c10e93c84840b0baced3c0585e8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 79c11d340ca39a2488b81991030e5e1c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -30629,7 +30629,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2043039543
 RectTransform:
   m_ObjectHideFlags: 0
