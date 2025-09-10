@@ -40,4 +40,10 @@ public class SceneNavigation : MonoBehaviour
         SceneManager.LoadScene("Manager Scene");
     }
 
+    public void PlayerCharacterSelection()
+    {
+        SceneManager.LoadScene("Player Character Selection Scene");
+        SceneManager.UnloadSceneAsync("Menu Scene");
+    }
+
 }

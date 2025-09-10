@@ -14,4 +14,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Manager Scene.unity
     guid: 6e79bf1a289694242850a7990de8d1b7
+  - enabled: 1
+    path: Assets/Scenes/Settings Scene.unity
+    guid: 29342631bdce6984cbc3750320c54cf9
+  - enabled: 1
+    path: Assets/Scenes/Player Character Selection Scene.unity
+    guid: fe9de595c50b01c40b0dfe0a014c6a36
+  - enabled: 1
+    path: Assets/Scenes/Crew Member Selection Scene.unity
+    guid: 5cbb8c655f1f9f44cb5a900986629858
+  - enabled: 1
+    path: Assets/Scenes/Bank Heist Scene.unity
+    guid: c2ef375dfbd7f9248b613106d2f093bd
+  - enabled: 1
+    path: Assets/Scenes/Text Message Transition Scene.unity
+    guid: bebd46674687ee94d8ffb446ba42a814
+  - enabled: 1
+    path: Assets/Scenes/Mechanic Introduction.unity
+    guid: 3f26c9ca2e786354fab0999473cb2f9b
+  - enabled: 1
+    path: Assets/Scenes/Thank You For Playing Scene.unity
+    guid: d3c9de261ea5cca4cba461f51aa7db88
   m_configObjects: {}
