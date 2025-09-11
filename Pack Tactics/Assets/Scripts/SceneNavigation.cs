@@ -5,11 +5,31 @@ using UnityEngine.SceneManagement;
 
 public class SceneNavigation : MonoBehaviour
 {
-   
-
-    public void LoadGame()
+    public void MenuButton()
     {
-        SceneManager.UnloadSceneAsync("Menu Scene");
-        SceneManager.LoadScene("Game Scene");
+        SceneManager.LoadScene(1, LoadSceneMode.Additive);
+
+    }
+
+    public void PlayButton()
+    {
+        SceneManager.UnloadSceneAsync(1);
+        SceneManager.LoadSceneAsync(3, LoadSceneMode.Additive);
+    }
+
+    public void SettingsButton()
+    {
+        SceneManager.LoadSceneAsync(0, LoadSceneMode.Additive);
+    }
+
+    public void ManagerScene()
+    {
+        SceneManager.LoadSceneAsync(2, LoadSceneMode.Additive);
+    }
+    
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 }
