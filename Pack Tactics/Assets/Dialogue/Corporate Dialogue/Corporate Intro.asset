@@ -38,7 +38,7 @@ MonoBehaviour:
   - id: 1
     fields:
     - title: Name
-      value: Corporate
+      value: Player
       type: 0
       typeString: 
     - title: Pictures
@@ -99,6 +99,28 @@ MonoBehaviour:
       typeString: CustomFieldType_Boolean
     portrait: {fileID: 0}
     spritePortrait: {fileID: 21300000, guid: 3a9f853f6b4a0cc4ca2f77c8f624a068, type: 3}
+    alternatePortraits: []
+    spritePortraits: []
+  - id: 4
+    fields:
+    - title: Name
+      value: Corporate
+      type: 0
+      typeString: 
+    - title: Pictures
+      value: '[]'
+      type: 3
+      typeString: CustomFieldType_Files
+    - title: Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: IsPlayer
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    portrait: {fileID: 2800000, guid: b03222a82d3f89949a09d39cf71b1af2, type: 3}
+    spritePortrait: {fileID: 21300000, guid: b03222a82d3f89949a09d39cf71b1af2, type: 3}
     alternatePortraits: []
     spritePortraits: []
   items: []
@@ -565,7 +587,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 288
-        y: 554
+        y: 552.1818
         width: 160
         height: 30
     - id: 7
@@ -579,7 +601,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: 4
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -916,7 +938,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: 4
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -1304,7 +1326,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: 4
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -1638,7 +1660,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: 4
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -1866,7 +1888,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: 4
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -2565,8 +2587,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 579.0379
-        y: 474.3479
+        x: 591.76514
+        y: 477.98425
         width: 160
         height: 30
     - id: 49
@@ -2622,7 +2644,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 581.2118
-        y: 548.2609
+        y: 553.71545
         width: 160
         height: 30
     - id: 50
@@ -2678,13 +2700,13 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 635.2429
-        y: 1495.5675
+        x: 644.33386
+        y: 1488.2948
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.34000045
+    canvasScrollPosition: {x: 0, y: 1650.9058}
+    canvasZoom: 0.5500004
   syncInfo:
     syncActors: 0
     syncItems: 0
