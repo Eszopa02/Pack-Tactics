@@ -11,5 +11,6 @@ public class SceneNavigation : MonoBehaviour
     {
         SceneManager.UnloadSceneAsync("Menu Scene");
         SceneManager.LoadScene("Game Scene");
+        //SceneManager.OpenScene("Game Scene");
     }
 }
