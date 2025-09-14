@@ -108,7 +108,7 @@ MonoBehaviour:
   - id: 4
     fields:
     - title: Name
-      value: Average Joe
+      value: 
       type: 0
       typeString: CustomFieldType_Text
     - title: Pictures
@@ -116,7 +116,7 @@ MonoBehaviour:
       type: 3
       typeString: CustomFieldType_Files
     - title: Description
-      value: Player
+      value: 
       type: 0
       typeString: CustomFieldType_Text
     - title: IsPlayer
@@ -4133,7 +4133,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 559.08594}
+    canvasScrollPosition: {x: 3.6363525, y: 232.72687}
     canvasZoom: 0.5500004
   syncInfo:
     syncActors: 0

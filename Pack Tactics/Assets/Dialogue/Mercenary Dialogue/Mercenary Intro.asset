@@ -108,7 +108,7 @@ MonoBehaviour:
   - id: 4
     fields:
     - title: Name
-      value: Mercenary
+      value: 
       type: 0
       typeString: CustomFieldType_Text
     - title: Pictures
