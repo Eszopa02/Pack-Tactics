@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using PixelCrushers.DialogueSystem;
 
 public class Transition : MonoBehaviour
 {
@@ -13,13 +14,28 @@ public class Transition : MonoBehaviour
     public GameObject SettingsScreen2;
 
     public GameObject SaveScreen;
-    public GameObject DialogueManager;
+    public Canvas DialogueScene;
+
+    //void Start()
+    //{
+        //if (DialogueManager.instance != null && DialogueManager.instance.displaySettings.defaultCanvas != null)
+        //{/
+            //DialogueScene = DialogueManager.instance.displaySettings.defaultCanvas;
+        //}
+    //}
+
 
     public void Save()
     {
+        if (DialogueManager.isConversationActive)
+        {
+            ConversationPositionStack.PushConversationPosition();
+            //DialogueManager.StopConversation();
+        }
+        
+        DialogueManager.displaySettings.defaultCanvas.enabled = false;
+
         SaveScreen.SetActive(true);
-        IntroScene.SetActive(false);
-        //DialogueManager.SetActive(false);
     }
 
     public void StartGame()
@@ -81,9 +97,11 @@ public class Transition : MonoBehaviour
 
     public void ExitSave()
     {
-        IntroScene.SetActive(true);
         SaveScreen.SetActive(false);
-        //DialogueManager.SetActive(true);
+
+        DialogueManager.displaySettings.defaultCanvas.enabled = true;
+        //DialogueManager.StartConversation("New Conversation 1");
+        ConversationPositionStack.PopConversationPosition();
     }
 
 

@@ -1546,6 +1546,21 @@ MonoBehaviour:
   m_maxSaveSlot: 99999
   m_framesToWaitBeforeApplyData: 0
   m_debug: 0
+--- !u!114 &68342192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68342186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e416a7b04e1e1d41b075edd65a4297e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clearOnConversationStart: 1
+  unregisterOnDisable: 0
+  pushCurrentEntry: 0
 --- !u!1 &69828631
 GameObject:
   m_ObjectHideFlags: 0
@@ -3571,7 +3586,7 @@ MonoBehaviour:
   Menu2: {fileID: 294288393}
   SettingsScreen2: {fileID: 1298566762}
   SaveScreen: {fileID: 0}
-  DialogueManager: {fileID: 0}
+  DialogueScene: {fileID: 0}
 --- !u!114 &190715002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5603,6 +5618,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 125852, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
       insertIndex: -1
       addedObject: {fileID: 68342188}
+    - targetCorrespondingSourceObject: {fileID: 125852, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 68342192}
   m_SourcePrefab: {fileID: 100100000, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
 --- !u!1 &338186069
 GameObject:
@@ -9992,7 +10010,7 @@ MonoBehaviour:
   Menu2: {fileID: 0}
   SettingsScreen2: {fileID: 0}
   SaveScreen: {fileID: 0}
-  DialogueManager: {fileID: 0}
+  DialogueScene: {fileID: 0}
 --- !u!1 &629463552
 GameObject:
   m_ObjectHideFlags: 0
@@ -10052,7 +10070,7 @@ MonoBehaviour:
   Menu2: {fileID: 294288393}
   SettingsScreen2: {fileID: 1298566762}
   SaveScreen: {fileID: 0}
-  DialogueManager: {fileID: 0}
+  DialogueScene: {fileID: 0}
 --- !u!114 &629463555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15526,7 +15544,7 @@ MonoBehaviour:
   Menu2: {fileID: 294288393}
   SettingsScreen2: {fileID: 1298566762}
   SaveScreen: {fileID: 0}
-  DialogueManager: {fileID: 0}
+  DialogueScene: {fileID: 0}
 --- !u!114 &978321014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16921,7 +16939,7 @@ MonoBehaviour:
   Menu2: {fileID: 294288393}
   SettingsScreen2: {fileID: 1298566762}
   SaveScreen: {fileID: 0}
-  DialogueManager: {fileID: 0}
+  DialogueScene: {fileID: 0}
 --- !u!114 &1050042145
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18149,7 +18167,7 @@ MonoBehaviour:
   Menu2: {fileID: 0}
   SettingsScreen2: {fileID: 0}
   SaveScreen: {fileID: 2005696625}
-  DialogueManager: {fileID: 0}
+  DialogueScene: {fileID: 1916597447}
 --- !u!114 &1149734314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19326,7 +19344,7 @@ MonoBehaviour:
   Menu2: {fileID: 294288393}
   SettingsScreen2: {fileID: 1298566762}
   SaveScreen: {fileID: 0}
-  DialogueManager: {fileID: 0}
+  DialogueScene: {fileID: 0}
 --- !u!114 &1217433808
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23601,7 +23619,7 @@ MonoBehaviour:
   Menu2: {fileID: 294288393}
   SettingsScreen2: {fileID: 1298566762}
   SaveScreen: {fileID: 0}
-  DialogueManager: {fileID: 0}
+  DialogueScene: {fileID: 0}
 --- !u!1 &1513483772
 GameObject:
   m_ObjectHideFlags: 0
@@ -24195,7 +24213,7 @@ MonoBehaviour:
   Menu2: {fileID: 294288393}
   SettingsScreen2: {fileID: 1298566762}
   SaveScreen: {fileID: 0}
-  DialogueManager: {fileID: 0}
+  DialogueScene: {fileID: 0}
 --- !u!1 &1527902130
 GameObject:
   m_ObjectHideFlags: 0
@@ -24570,7 +24588,7 @@ MonoBehaviour:
   Menu2: {fileID: 294288393}
   SettingsScreen2: {fileID: 1298566762}
   SaveScreen: {fileID: 0}
-  DialogueManager: {fileID: 0}
+  DialogueScene: {fileID: 0}
 --- !u!114 &1541879272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24725,7 +24743,7 @@ MonoBehaviour:
   Menu2: {fileID: 294288393}
   SettingsScreen2: {fileID: 1298566762}
   SaveScreen: {fileID: 0}
-  DialogueManager: {fileID: 0}
+  DialogueScene: {fileID: 0}
 --- !u!114 &1557589842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28844,7 +28862,7 @@ MonoBehaviour:
   Menu2: {fileID: 0}
   SettingsScreen2: {fileID: 0}
   SaveScreen: {fileID: 2005696625}
-  DialogueManager: {fileID: 68342186}
+  DialogueScene: {fileID: 1916597447}
 --- !u!1 &1853190063
 GameObject:
   m_ObjectHideFlags: 0
@@ -30219,6 +30237,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1915933061}
   m_CullTransparentMesh: 1
+--- !u!223 &1916597447 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 22325660, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
+  m_PrefabInstance: {fileID: 334723645}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1918576786
 GameObject:
   m_ObjectHideFlags: 0

@@ -1360,6 +1360,8 @@ MonoBehaviour:
   SettingsScene: {fileID: 0}
   Menu2: {fileID: 0}
   SettingsScreen2: {fileID: 0}
+  SaveScreen: {fileID: 0}
+  DialogueScene: {fileID: 0}
 --- !u!1 &1540586397
 GameObject:
   m_ObjectHideFlags: 0
