@@ -12,7 +12,15 @@ public class Transition : MonoBehaviour
     public GameObject Menu2;
     public GameObject SettingsScreen2;
 
-    
+    public GameObject SaveScreen;
+    public GameObject DialogueManager;
+
+    public void Save()
+    {
+        SaveScreen.SetActive(true);
+        IntroScene.SetActive(false);
+        //DialogueManager.SetActive(false);
+    }
 
     public void StartGame()
     {
@@ -64,10 +72,19 @@ public class Transition : MonoBehaviour
 
     public void ReturnToGame()
     {
-        MainMenu.SetActive(false);
+        //MainMenu.SetActive(false);
         PlayerSelect.SetActive(true);
         IntroScene.SetActive(false);
-        SettingsScene.SetActive(false);
+        //SettingsScene.SetActive(false);
+        SaveScreen.SetActive(false);
     }
+
+    public void ExitSave()
+    {
+        IntroScene.SetActive(true);
+        SaveScreen.SetActive(false);
+        //DialogueManager.SetActive(true);
+    }
+
 
 }
