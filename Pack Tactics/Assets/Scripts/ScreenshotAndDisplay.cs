@@ -11,6 +11,14 @@ public class ScreenshotAndDisplay : MonoBehaviour
 
     private Texture2D lastScreenshot; // Stores the last taken screenshot
 
+    private int pressCount = 0;
+    private const int activationThreshold = 2;
+
+    public GameObject objectToActivate;
+
+    public Button yesButton;
+    public Button noButton;
+
     void Start()
     {
         // Assign button click listeners
@@ -44,6 +52,39 @@ public class ScreenshotAndDisplay : MonoBehaviour
     // Update the image of a specified button with the last screenshot
     void UpdateButtonImage(int buttonIndex)
     {
+        OnButtonPressed();
+        
+        if (pressCount >= activationThreshold)
+        {
+            Debug.Log("Not updated a second time");
+            //yesButtonPressed();
+        }
+        else
+        {
+            if (lastScreenshot != null && buttonIndex < imageButtons.Count)
+            {
+                Sprite sprite = Sprite.Create(lastScreenshot, new Rect(0, 0, lastScreenshot.width, lastScreenshot.height), new Vector2(0.5f, 0.5f));
+                imageButtons[buttonIndex].GetComponent<Image>().sprite = sprite;
+                Debug.Log($"Button {buttonIndex + 2} image updated with screenshot.");
+            }
+            else if (lastScreenshot == null)
+            {
+                Debug.LogWarning("No screenshot available to update image.");
+            }
+            else
+            {
+                Debug.LogError($"Invalid button index: {buttonIndex}");
+            }
+
+            Debug.Log("Image updated once");
+        }
+        
+    }
+
+    public void yesButtonPressed(int buttonIndex)
+    {
+        objectToActivate.SetActive(false);
+
         if (lastScreenshot != null && buttonIndex < imageButtons.Count)
         {
             Sprite sprite = Sprite.Create(lastScreenshot, new Rect(0, 0, lastScreenshot.width, lastScreenshot.height), new Vector2(0.5f, 0.5f));
@@ -57,6 +98,28 @@ public class ScreenshotAndDisplay : MonoBehaviour
         else
         {
             Debug.LogError($"Invalid button index: {buttonIndex}");
+        }
+
+        Debug.Log("Image updated once");
+
+        pressCount = 0;
+    }
+
+    public void noButtonPressed()
+    {
+        objectToActivate.SetActive(false);
+    }
+
+    void OnButtonPressed()
+    {
+        pressCount++;
+
+        if (pressCount >= activationThreshold)
+        {
+            if (objectToActivate != null)
+            {
+                objectToActivate.SetActive(true);
+            }
         }
     }
 }
