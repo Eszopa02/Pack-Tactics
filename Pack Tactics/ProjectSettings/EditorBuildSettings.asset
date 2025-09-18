@@ -17,4 +17,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Save Scene.unity
     guid: 4a9a367896dcda544a3bdfd812f025f0
+  - enabled: 1
+    path: Assets/Scenes/Player Character Select.unity
+    guid: 650b2f78dad7d2745803f8ca146fc712
+  - enabled: 1
+    path: Assets/Scenes/Mercenary Scene.unity
+    guid: e83299141ccad3f4fb203235d9ea2f19
+  - enabled: 1
+    path: Assets/Scenes/Average Joe Scene.unity
+    guid: cedeac4917114264087053aa8e91c5ca
+  - enabled: 1
+    path: Assets/Scenes/Corporate Scene.unity
+    guid: 405204fc77bd98d44be0fc684e58381a
+  - enabled: 1
+    path: Assets/Scenes/Drifter Scene.unity
+    guid: c0a45e65896be0d48be173b710514928
   m_configObjects: {}

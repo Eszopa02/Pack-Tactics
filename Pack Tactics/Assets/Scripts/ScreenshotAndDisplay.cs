@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.IO;
+using PixelCrushers;
+using PixelCrushers.DialogueSystem;
+using UnityEngine.SceneManagement;
 
 public class ScreenshotAndDisplay : MonoBehaviour
 {
@@ -18,6 +21,28 @@ public class ScreenshotAndDisplay : MonoBehaviour
 
     public Button yesButton;
     public Button noButton;
+
+    //public string saveFileName = "savedGame.sav";
+
+    public void LoadSaveScene()
+    {
+        TakeScreenshotImmediate();
+
+        //Pausing Dialogue
+        if (DialogueManager.isConversationActive)
+        {
+            ConversationPositionStack.PushConversationPosition();
+        }
+
+        DialogueManager.displaySettings.defaultCanvas.enabled = false;
+
+        //Loading and Unloading Scenes
+        SceneManager.LoadScene("Save Scene");
+        SceneManager.UnloadScene("Mercenary Scene");
+        SceneManager.UnloadScene("Average Joe Scene");
+        SceneManager.UnloadScene("Corporate Scene");
+        SceneManager.UnloadScene("Drifter Scene");
+    }
 
     void Start()
     {
@@ -36,6 +61,22 @@ public class ScreenshotAndDisplay : MonoBehaviour
             int index = i; // Capture index for closure
             imageButtons[index].onClick.AddListener(() => UpdateButtonImage(index));
         }
+    }
+
+    //Manually Save Game
+    public void SaveGame()
+    {
+        SaveSystem.SaveToSlot(1);
+        //string saveData = PersistentDataManager.GetSaveData();
+        // string filePath = Path.Combine(Application.persistentDataPath, saveFileName);
+        //File.WriteAllText(filePath, saveData);
+        //Debug.Log("Game saved to: " + filePath);
+    }
+
+    //Manually Load Game
+    public void LoadGame()
+    {
+        SaveSystem.LoadFromSlot(1);
     }
 
     // Take a screenshot immediately without waiting for end of frame

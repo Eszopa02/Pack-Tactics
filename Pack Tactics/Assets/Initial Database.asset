@@ -57,7 +57,7 @@ MonoBehaviour:
     spritePortrait: {fileID: 0}
     alternatePortraits: []
     spritePortraits: []
-  - id: 2
+  - id: 8
     fields:
     - title: Name
       value: Fixer
@@ -79,7 +79,7 @@ MonoBehaviour:
     spritePortrait: {fileID: 0}
     alternatePortraits: []
     spritePortraits: []
-  - id: 3
+  - id: 9
     fields:
     - title: Name
       value: Narrator

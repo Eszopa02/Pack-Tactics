@@ -57,7 +57,7 @@ MonoBehaviour:
     spritePortrait: {fileID: 0}
     alternatePortraits: []
     spritePortraits: []
-  - id: 2
+  - id: 11
     fields:
     - title: Name
       value: Character 1
