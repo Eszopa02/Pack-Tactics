@@ -9,19 +9,21 @@ using UnityEngine.UI;
 
 public class SceneNavigation : MonoBehaviour
 {
+    public float activationDelay = 3.0f; 
+    public string sceneToLoadName = "Save Scene";
+
+    public Canvas disableCanvas;
+
+    public Camera targetCamera;
+
 
     public void LoadGame()
     {
-        //Load/Start Dialogue Manager after Save Screen Pause
-        DialogueManager.displaySettings.defaultCanvas.enabled = true;
-        ConversationPositionStack.PopConversationPosition();
-
         //SceneManager.UnloadSceneAsync("Menu Scene");
         //SceneManager.UnloadSceneAsync("Save Scene");
         SceneManager.LoadScene("Game Scene");
         SceneManager.UnloadScene("Player Character Select");
-        SceneManager.UnloadScene("Save Scene");
-        
+
         //SceneManager.OpenScene("Game Scene");
     }
 
@@ -33,8 +35,10 @@ public class SceneNavigation : MonoBehaviour
 
     public void LoadMercenary()
     {
+
         SceneManager.LoadScene("Mercenary Scene");
         SceneManager.UnloadScene("Player Character Select");
+        SceneManager.UnloadSceneAsync("Save Scene");
     }
 
     public void LoadAverageJoe()
@@ -54,22 +58,30 @@ public class SceneNavigation : MonoBehaviour
         SceneManager.LoadScene("Drifter Scene");
         SceneManager.UnloadScene("Player Character Select");
     }
+
+    public void ReturnToCurrentGame()
+    {
+        if (disableCanvas == null)
+        {
+            disableCanvas.gameObject.SetActive(true);
+        }
+    }
+
+    
     
     public void LoadSaveScene()
     {
-        //Pausing Dialogue
-        if (DialogueManager.isConversationActive)
+        if (disableCanvas != null)
         {
-            ConversationPositionStack.PushConversationPosition();
+            disableCanvas.gameObject.SetActive(false);
         }
 
-        DialogueManager.displaySettings.defaultCanvas.enabled = false;
+        SceneManager.LoadSceneAsync(sceneToLoadName, LoadSceneMode.Additive);
 
-        //Loading and Unloading Scenes
-        SceneManager.LoadScene("Save Scene", LoadSceneMode.Additive);
-        SceneManager.UnloadScene("Mercenary Scene");
-        //SceneManager.UnloadScene("Average Joe Scene");
-        //SceneManager.UnloadScene("Corporate Scene");
-        //SceneManager.UnloadScene("Drifter Scene");
+
     }
+
+  
+
+     
 }

@@ -1196,6 +1196,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 737ee974a37414941ba81a919bb65d53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activationDelay: 3
+  sceneToLoadName: Save Scene
 --- !u!1 &1524637678
 GameObject:
   m_ObjectHideFlags: 0
