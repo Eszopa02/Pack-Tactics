@@ -9,18 +9,20 @@ public class ConversationManager : MonoBehaviour
     private string savedConversationState = null;
     private static ConversationManager instance;
 
-    void Awake()
-    {
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-    }
+    //void Awake()
+    //{
+        //if (instance == null)
+        //{
+            //instance = this;
+            //DontDestroyOnLoad(gameObject);
+        //}
+        //else
+        //{
+            //Destroy(gameObject);
+        //}
+    //}
+
+    
 
     public void SaveAndStopConversation()
     {
@@ -48,4 +50,5 @@ public class ConversationManager : MonoBehaviour
             savedConversationState = null;
         }
     }
+
 }
